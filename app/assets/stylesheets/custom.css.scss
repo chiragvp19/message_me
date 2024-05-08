@@ -1,0 +1,41 @@
+
+*{
+	padding: 0;
+	margin : 0;
+	box-sizing: border-box;
+}
+
+
+.navbar{
+	height: 50px;
+	background-color : black;
+	display: flex;
+	align-items :center;
+	justify-content : space-between;
+	padding: 25px;
+}
+
+.left-elements, .right-elements{
+	width: 150px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	align-items :center;
+	justify-content : space-between;
+}
+ a{
+	text-decoration:none;
+	color: white;
+  	background-color: transparent;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
