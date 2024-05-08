@@ -3,20 +3,17 @@
 </div>
 
 <div class="chat-body">
+	
 	<div class="msg-box">
-		<div>
-			<em>user1: </em> hi..
-		</div>
-		<div>
-			<em>user2: </em> hello
-		</div>
-		<div>
-			<em>user3: </em> hey!!
+		<%= render @messages %>	
+		<div class="reply-box">
+			<input type="text" name="reply" placeholder="your message">
+			<button type="submit" name="reply" class="btn-submit">Send</button>
 		</div>
 	</div>
-
 	
 	<div class="status-box">
 		
 	</div>
+
 </div>

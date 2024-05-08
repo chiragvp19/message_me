@@ -95,6 +95,7 @@ a:active {
 	height:40px;
 	margin-top: 20px;
 	font-size: 20px;
+	cursor: pointer;
 }
 
 .btn-submit:active {
@@ -109,3 +110,19 @@ a:active {
   text-decoration: underline;
 }
 
+.msg-box{
+	padding: 35px;	
+	display:flex;
+	flex-direction:column;
+
+}
+.reply-box input{
+	width: 400px;
+	height: 45px;
+	font-size: 20px;
+	margin-top:40px;	
+}
+.reply-box{
+	width: 100px;
+	height: 15px;
+}
